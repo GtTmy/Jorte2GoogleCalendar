@@ -8,9 +8,11 @@ please convert encoding of schedule_data.csv to utf-8 (w/o BOM)
 
 ジョルテの吐く文字csvの文字コードはutf-8withBOMなので，あらかじめnkfなどで変換しておく．
 
-また，対象とするGoogleカレンダーアカウントでgoogle apiの認証をしておく．
+また，対象とするGoogleカレンダーアカウントでgoogle apiの認証をして，client_secret.jsonをおく．
 [Googleのドキュメント](https://developers.google.com/google-apps/calendar/quickstart/python)を参考にした．
 認証のコードもこのドキュメントを参考にしている．
+
+挿入対象のGoogle Calendarはdefaultでは1つ目のカレンダー．カレンダーを指定するにはJorte2GoogleCalendar.pyでCALENDAR_IDを記述する．
 
 ## 参考
 * [Google Calendar API Python quickstart](https://developers.google.com/google-apps/calendar/quickstart/python)
