@@ -3,6 +3,7 @@
 #################
 schedule_data.csv
 env/
+client_secret*
 
 #################
 ## Eclipse
