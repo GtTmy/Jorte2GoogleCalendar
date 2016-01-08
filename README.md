@@ -6,7 +6,7 @@ please convert encoding of schedule_data.csv to utf-8 (w/o BOM)
 ## 概要
 ジョルテカレンダーのcsvを読み込んで，googleカレンダーに追加する．
 
-ジョルテの吐く文字csvの文字コードはutf-8withBOMなので，あらかじめnkfなどで変換しておく．
+ジョルテの吐く文字csvの文字コードはutf-8withBOMなので，あらかじめnkfなどでutf-8に変換しておく．
 
 また，対象とするGoogleカレンダーアカウントでgoogle apiの認証をして，client_secret.jsonをおく．
 [Googleのドキュメント](https://developers.google.com/google-apps/calendar/quickstart/python)を参考にした．
